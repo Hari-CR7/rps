@@ -1,4 +1,4 @@
-# rps
+# Rock Paper Scissor Game
 Rock Paper Scissor Game. Play against the Computer and Enjoy.Made responsive for all devices.
 
 Installation:
