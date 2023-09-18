@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+}
+body{
+    background-color: #7ed6df;
+    padding: 2% 5%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #6ab04c;
+}
+.container{
+    width: 70%;
+    height: 500px;
+    padding: 0 3%;
+    margin: 60px auto;
+    display: flex;
+    margin-top: 4%;
+}
+.player{
+    width: 50%;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    color: blue;
+}
+.player::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.computer{
+    width: 45%;
+    text-align: center;
+    color: red;
+}
+.holder{
+    text-decoration: none;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+.chosen{
+    width: 100%;
+    height: 280px;
+}
+.chosen-img{
+    width: 230px;
+    height: 290px;
+}
+.choices{
+    margin-top: 40px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+.choice{
+    width: 40px;
+    height: 40px;
+}
+.result{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.start{
+    font-size: 3rem;
+    color: black;
+}
+
+/* Responsive codes */
+
+@media screen and (max-width: 1037px){
+
+    body{
+        padding-top: 7%;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 2rem;
+        padding-bottom: 15%;
+    }
+    .container{
+        width: 100%;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
+    .start{
+        font-size: 1.3rem;
+    }
+    .btn{
+        width: 48px;
+        height: 47px;
+    }
+    .result{
+        font-size: 1.4rem;
+    }
+    .chosen-img{
+        width: 150px;
+        height: 150px;
+        margin-top: 35%;
+    }
+}
