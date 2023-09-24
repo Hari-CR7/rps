@@ -120,4 +120,7 @@ button{
         height: 150px;
         margin-top: 35%;
     }
+    .choices{
+        display: flex;
+    }
 }
